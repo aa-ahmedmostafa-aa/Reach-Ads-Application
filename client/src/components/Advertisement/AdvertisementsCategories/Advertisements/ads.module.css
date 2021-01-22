@@ -1,0 +1,15 @@
+.bgColorads {
+  background-color: red;
+}
+.customInputSearch {
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid black;
+  border-radius: 0;
+  padding: 7px;
+  color: #382c2c;
+  width: 95%;
+}
+::-webkit-input-placeholder {
+    text-align: center;
+  }

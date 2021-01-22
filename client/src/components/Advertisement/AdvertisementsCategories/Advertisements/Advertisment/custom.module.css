@@ -1,0 +1,10 @@
+.customType {
+  text-align: "center";
+  border: 1px solid  #6082d0;
+  border-radius: 5px;
+  
+  width: "80px";
+  padding: 3px;
+  margin-right: 5px !important;
+  color: tomato;
+}

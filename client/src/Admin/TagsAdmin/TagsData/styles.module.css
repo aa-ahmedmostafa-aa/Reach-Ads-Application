@@ -1,0 +1,15 @@
+.table_font{
+    font-family: "Poppins", sans-serif;
+    background-color: tomato !important;
+}
+.customInputSearch {
+    background-color: transparent;
+    border: none;
+    padding: 1rem;
+    margin: 10px 70px;
+    border-bottom: 1px solid black;
+    border-radius: 0;
+    padding: 7px;
+    color: #382c2c;
+    width: 80%;
+  }

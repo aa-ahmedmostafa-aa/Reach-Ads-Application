@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@700&display=swap");
+
+.header {
+    
+  height: 100vh;
+  background-image: url(../../assits/header-bg.jpg);
+  background-position: center;
+  background-size: cover;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+.welcome{
+    font-family: "Noto Sans TC", sans-serif;
+    color: rgba(0, 0, 0, 0.9);
+}
+.ReachSpan{
+  font-size: 40px;
+  font-family: "Noto Sans TC", sans-serif;
+  color: brown;
+}
+.layer {
+    font-family: "Noto Sans TC", sans-serif;
+  background-color:#f1f1f1;
+  height: 100vh;
+  font-family: "Nunito", sans-serif;
+  color: rgba(0, 0, 0, 0.9);
+}
+.subContent h2 {
+    color: rgba(0, 0, 0, 0.9);
+  font-weight: 700;
+  font-size: 55px;
+}
+.subContent p {
+    font-family: "Noto Sans TC", sans-serif;
+  line-height: 1.8;
+  margin: 25px 5px;
+  margin-bottom: 35px;
+  color: rgba(0, 0, 0, 0.9);
+}
+.Download {
+  padding: 15px 32px;
+  font-size: 14px;
+  font-weight: 700;
+  transition: all 0.5s;
+  letter-spacing: 0.6px;
+  color: rgba(0, 0, 0, 0.9);
+  box-shadow: none !important;
+  text-transform: uppercase;
+  outline: none !important;
+  border-radius: 30px;
+  border: 2px solid rgba(0, 0, 0, 0.9);
+  margin-top: 15px;
+}
+.Download:hover {
+  text-decoration: none;
+  background-color: black;
+  color: white;
+}
+.bac-spinner {
+  background-color: black;
+  padding: 10px;
+  position: fixed;
+  left: 0;
+  top: 50%;
+  border-top-right-radius: 0.25rem !important;
+  border-bottom-right-radius: 0.25rem !important;
+  cursor: pointer;
+}
+.spinner {
+  color: white;
+  font-size: 30px;
+}
