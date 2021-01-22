@@ -103,12 +103,8 @@ const Navbar = () => {
               className="collapse navbar-collapse"
               id="navbarSupportedContent"
             >
-              <ul className="navbar-nav ml-auto">
-                <li className="nav-item">
-                  <NavLink className="nav-link" to="/home">
-                    Home
-                  </NavLink>
-                </li>
+              <ul className="navbar-nav ">
+               
                 {user.roleId == 1 && (
                   <li className="nav-item">
                     <NavLink className="nav-link" to="/CategoryAdmin">
@@ -129,6 +125,8 @@ const Navbar = () => {
                     </NavLink>
                   </li>
                 )}
+              </ul>
+              <ul className="navbar-nav   ml-auto">
                 <li className="nav-item ">
                   <span
                     className="nav-link logout"

@@ -13,6 +13,7 @@ import ProtectedRoute from "./Authentication/ProtectedRoute";
 
 function App() {
   const [user, setUser] = useContext(UserConetext).user;
+  console.log("User from App :",user);
   return (
     <CategoryContextProvider>
       <TagContextProvider>

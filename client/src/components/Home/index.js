@@ -9,9 +9,13 @@ export default function Home() {
   useEffect(() => {
     try {
       // Parse a JSON
-      let userLoggedInDataString = localStorage.getItem("user");
-     
-      setUser(JSON.parse(userLoggedInDataString));
+      if (localStorage.getItem("user") == null) {
+        setUser({});
+      } else {
+        let userLoggedInDataString = localStorage.getItem("user");
+
+        setUser(JSON.parse(userLoggedInDataString));
+      }
     } catch (e) {
       console.log(e);
     }
